@@ -32,5 +32,5 @@ String bgr = WebUI.getCSSValue(findTestObject('Tiki_search_Block/btn_search'), '
 String rgbBrgColor = CustomKeywords.'FinalKeywords.getRGBString'(bgr)
 String colorBgrHex = CustomKeywords.'FinalKeywords.convertRGBStringToHex'(rgbBrgColor)
 String realBgr = '#0d5cb6'
-println("hello")
+println("hello vantt19")
 WebUI.verifyMatch(colorBgrHex, realBgr,  true)
