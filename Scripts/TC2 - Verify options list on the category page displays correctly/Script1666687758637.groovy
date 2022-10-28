@@ -23,3 +23,4 @@ List<String> expectList = ['Thiết Bị Âm Thanh và Phụ Kiện', 'Thiết B
 	, 'Thiết Bị Thông Minh và Linh Kiện Điện Tử', 'Phụ Kiện Điện Thoại và Máy Tính Bảng', 'Phụ kiện máy tính và Laptop']
 List<String> actualList = CustomKeywords.'FinalKeywords.getTextFromList'(findTestObject('Tiki_Devide_Category/list_category'))
 CustomKeywords.'kms.turing.katalon.plugins.assertj.ListAssert.equalsWithOrder'(actualList, expectList, "contains")
+println("hello")
